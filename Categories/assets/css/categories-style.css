@@ -1,0 +1,110 @@
+*{
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+#header {
+    z-index: 1;
+    top :0;
+    width: 100%;
+    position: fixed;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    background-color: #fff;
+}
+
+
+
+.nav .list-nav a{
+    margin:  9px;
+    font-weight: bold;
+    color: rgb(255, 102, 153);
+}
+
+.nav .list-nav a:hover {
+    color: tomato;
+}
+
+.nav .list-nav {
+    display: flex;
+    list-style-type: none;
+    margin-right: 35px;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+}
+
+.explore-food{
+ padding-top: 70px;
+}
+
+.explore-food h2 {
+    padding-top: 30px;
+    text-align: center;
+    
+}
+
+
+
+.menu-food .item-food p{
+    color: #fff;
+    position:absolute;
+    left: 50%;
+    bottom: 0;
+    transform: translateX(-50%);
+}
+
+.menu-food .item-food  {
+    position: relative;
+    height: 410px;
+    width: 350px;
+    border-radius: 8px;
+    overflow: hidden;
+    margin: 20px 15px;
+}
+.menu-food .item-food img {
+    width: 100%;
+    height: 100%;
+}
+
+.menu-food .item-food:hover {
+    opacity: 0.8;
+}
+
+.explore-food .menu-food{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+ 
+}
+
+.footer{
+    display: flex;
+    justify-content: center;
+}
+.logo-social {
+    padding:20px;
+    
+}
+.logo-social a {
+    color: #000;
+
+}
+
+.logo-social a:hover {
+    color: tomato;
+}
+
+.logo-social:hover {
+    color: tomato;
+}
+.copyright{
+    text-align: center;
+    font-family: emoji;
+    
+}
+
